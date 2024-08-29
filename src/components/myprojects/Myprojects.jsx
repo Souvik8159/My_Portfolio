@@ -5,6 +5,7 @@ import IMG2 from '../../assets/img2.png'
 import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
 import IMG5 from '../../assets/img12.png'
+import IMG6 from '../../assets/img6.png'
 
 const Myprojects = () => {
   return (
@@ -21,8 +22,8 @@ const Myprojects = () => {
             <h3>Weather App</h3>
             <small className='text-light'>HTML | CSS | JS </small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Souvik8159/Weather-App" target="_blank" rel='noreferrer' className='btn'>Github</a>  
-              <a href="https://weather-app-01-five.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/Souvik8159/Weather_App" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://weather-app-iota-khaki-99.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
 
             </div>
             
@@ -59,7 +60,7 @@ const Myprojects = () => {
             <small className='text-light'>Express js</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/Souvik8159/RealTime-Pizza-Delivery-App" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://github.com/Venturesum1/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/Souvik8159/RealTime-Pizza-Delivery-App" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
@@ -72,6 +73,18 @@ const Myprojects = () => {
             <div className="portfolio__item-cta">
               <a href="https://github.com/Souvik8159/MyPortfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://github.com/Souvik8159/MyPortfolio" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG6} alt="" />
+            </div>
+            <h3>Pig_Game</h3>
+            <small className='text-light'>React js</small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/Souvik8159/Pig_Game" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://pig-game-gamma-topaz.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
